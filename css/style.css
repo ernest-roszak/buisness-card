@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+   }
+   *, *:before, *:after {
+    box-sizing: inherit;
+   }
+  body {
+    background-color: #E5E5E5;
+  }
+  main {
+    background: rgb(34,195,140);
+background: radial-gradient(circle, rgba(34,195,140,1) 5%, rgba(253,186,45,1) 95%);
+  }
+  .article {
+    width: 624px;
+    height: 320px;
+  }
