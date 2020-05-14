@@ -28,12 +28,18 @@ body {
   display: inline-block;
 }
 .person {
+  display: flex;
+  align-items: flex-start;
+
 }
 .person__picture {
-  max-width: 148;
-  max-height: 148;
+  max-width: 148px;
+  max-height: 148px;
   border-radius: 74px;
   top: 0px;
+  margin-right: 32px;
+  
+  
 }
 .person__name {
   margin: 0px;
