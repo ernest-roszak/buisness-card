@@ -1,33 +1,67 @@
 html {
-    box-sizing: border-box;
-   }
-   *, *:before, *:after {
-    box-sizing: inherit;
-   }
-  body {
-    background: rgb(34,195,140);
-background: radial-gradient(circle, rgba(34,195,140,1) 5%, rgba(253,186,45,1) 95%);
-display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  .main {
-    width: 624px;
-    background-color: #F8F8F8;
-    border-radius: 16px;
-    padding: 32px;
-    margin: 16px;
-    display: inline-block;
-    
-    
-  }
-  .article {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background: rgb(34, 195, 140);
+  background: radial-gradient(
+    circle,
+    rgba(34, 195, 140, 1) 5%,
+    rgba(253, 186, 45, 1) 95%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+  width: 624px;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+  padding: 32px;
+  margin: 16px;
+  display: inline-block;
+}
+.person {
+}
+.person__picture {
+  max-width: 148;
+  max-height: 148;
+  border-radius: 74px;
+  top: 0px;
+}
+.person__name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  color: #000000;
+}
+.person__position {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
 
-  }
-  .avatar {
-    max-width: 148;
-    max-height: 148;
-    border-radius: 74px;
-    top: 0px
-  }
+  color: #545454;
+}
+.person__info {
+}
+.person__description {
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+
+color: #000000;
+
+}
