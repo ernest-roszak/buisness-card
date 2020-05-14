@@ -5,13 +5,29 @@ html {
     box-sizing: inherit;
    }
   body {
-    background-color: #E5E5E5;
-  }
-  main {
     background: rgb(34,195,140);
 background: radial-gradient(circle, rgba(34,195,140,1) 5%, rgba(253,186,45,1) 95%);
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .main {
+    width: 624px;
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    padding: 32px;
+    margin: 16px;
+    display: inline-block;
+    
+    
   }
   .article {
-    width: 624px;
-    height: 320px;
+
+  }
+  .avatar {
+    max-width: 148;
+    max-height: 148;
+    border-radius: 74px;
+    top: 0px
   }
