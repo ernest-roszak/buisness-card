@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .main {
   width: 624px;
@@ -35,7 +36,7 @@ body {
   top: 0px;
 }
 .person__name {
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -43,7 +44,7 @@ body {
   color: #000000;
 }
 .person__position {
-  font-family: Arial;
+  margin: 0px;
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
@@ -54,14 +55,19 @@ body {
 .person__info {
 }
 .person__description {
-  font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.special {
+  color: #ED6D05;
+  font-weight: normal;
+}
+.person__link {
+  color: #E20613;
 line-height: 22px;
-/* or 137% */
-
-
-color: #000000;
+text-decoration: none;
 
 }
